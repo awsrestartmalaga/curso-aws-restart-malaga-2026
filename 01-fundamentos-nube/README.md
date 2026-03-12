@@ -1,65 +1,197 @@
 # Fundamentos de la nube
 
-## Objetivo del bloque
+Este módulo introduce los conceptos esenciales de **Cloud Computing y AWS**.  
+Es el punto de partida para entender cómo funcionan los servicios cloud y cómo se utilizan en la práctica.
 
-Comprender los conceptos básicos de cloud computing y la propuesta de valor de AWS como proveedor de servicios cloud.
+El objetivo es que el alumno comprenda **los principios básicos de la nube antes de empezar a trabajar con servicios específicos de AWS**.
 
-## Qué debe aprender el alumno
+---
 
-- Qué es la computación en la nube
-- Cuáles son sus ventajas principales
-- Qué es AWS
-- Cómo se organiza la infraestructura global de AWS
-- Qué significa el modelo de responsabilidad compartida
-- Qué categorías de servicios existen en AWS
+# Objetivos del módulo
 
-## Conceptos clave
+Al finalizar este módulo el alumno debería ser capaz de:
 
-Cloud Computing  
-Escalabilidad  
-Elasticidad  
-Alta disponibilidad  
-Modelo de pago por uso  
-Infraestructura global de AWS  
+- explicar qué es **cloud computing**
+- entender las **ventajas del modelo cloud**
+- comprender cómo se organiza la **infraestructura global de AWS**
+- identificar las principales **categorías de servicios**
+- conocer los servicios básicos **Amazon EC2 y Amazon S3**
+- entender el **modelo de responsabilidad compartida**
+- reconocer conceptos clave que aparecen en el examen **AWS Certified Cloud Practitioner**
 
-## Infraestructura global de AWS
+---
 
-AWS organiza su infraestructura en:
+# Contenido del módulo
 
-- **Regions**
-- **Availability Zones**
-- **Edge Locations**
+1. [Qué es Cloud Computing](01-que-es-cloud.md)
+2. [Ventajas del Cloud](02-ventajas-del-cloud.md)
+3. [Infraestructura global de AWS](03-infraestructura-global-aws.md)
+4. [Categorías de servicios AWS](04-categorias-servicios-aws.md)
+5. [Amazon EC2](05-amazon-ec2.md)
+6. [Amazon S3](06-amazon-s3.md)
+7. [Modelo de responsabilidad compartida](07-modelo-responsabilidad-compartida.md)
 
-Esto permite alta disponibilidad y resiliencia.
+---
 
-## Modelo de responsabilidad compartida
+# Conceptos clave que debes recordar
 
-AWS y el cliente comparten responsabilidades.
+Estos conceptos son fundamentales para entender cloud computing:
 
-AWS se encarga de:
+| Concepto | Explicación |
+|--------|--------|
+| Cloud Computing | Uso de recursos informáticos a través de internet |
+| Pay-as-you-go | Pago solo por lo que se utiliza |
+| Elasticidad | Ajustar recursos automáticamente según demanda |
+| Escalabilidad | Aumentar capacidad de un sistema |
+| Alta disponibilidad | Diseñar sistemas que sigan funcionando aunque haya fallos |
 
-- Seguridad del datacenter
-- Hardware
-- Infraestructura física
-- Red global
+---
 
-El cliente se encarga de:
+# Infraestructura global de AWS
 
-- Configuración de servicios
-- Gestión de accesos
-- Seguridad del sistema operativo
-- Datos
+AWS organiza su infraestructura en tres niveles principales.
 
-## Servicios principales que se introducen en este módulo
+## Regions
 
-- Amazon EC2
-- Amazon S3
-- AWS IAM
-- Amazon VPC
-- AWS Pricing
+Una **Region** es un área geográfica donde AWS tiene centros de datos.
 
-## Relación con el examen Cloud Practitioner
+Ejemplos:
+
+- eu-west-1 (Irlanda)
+- eu-central-1 (Frankfurt)
+- us-east-1 (Virginia)
+
+---
+
+## Availability Zones
+
+Cada región contiene varias **Availability Zones (AZ)**.
+
+Cada AZ es un **datacenter independiente**.
+
+Se utilizan para:
+
+- alta disponibilidad
+- resiliencia
+- tolerancia a fallos
+
+---
+
+## Edge Locations
+
+Son servidores distribuidos globalmente para reducir latencia.
+
+Se utilizan en servicios como:
+
+- Amazon CloudFront
+- Amazon Route 53
+
+---
+
+# Servicios AWS que se introducen en este módulo
+
+Este módulo presenta dos de los servicios más importantes de AWS.
+
+## Amazon EC2
+
+Servicio de **cómputo** que permite lanzar **máquinas virtuales en la nube**.
+
+Se usa para:
+
+- servidores web
+- aplicaciones
+- desarrollo
+- testing
+
+---
+
+## Amazon S3
+
+Servicio de **almacenamiento de objetos**.
+
+Se usa para:
+
+- almacenamiento de archivos
+- backups
+- hosting web estático
+- almacenamiento de logs
+
+---
+
+# Modelo de responsabilidad compartida
+
+AWS y el cliente comparten responsabilidades de seguridad.
+
+## AWS es responsable de
+
+La **seguridad de la nube**.
+
+Incluye:
+
+- centros de datos
+- hardware
+- red global
+- infraestructura física
+
+---
+
+## El cliente es responsable de
+
+La **seguridad en la nube**.
+
+Incluye:
+
+- usuarios
+- permisos
+- configuración de servicios
+- sistemas operativos
+- aplicaciones
+- datos
+
+---
+
+# Relación con el examen Cloud Practitioner
 
 Este módulo cubre principalmente el dominio:
 
 **Cloud Concepts**
+
+Conceptos importantes para el examen:
+
+- Elasticity
+- Scalability
+- High Availability
+- Regions
+- Availability Zones
+- Pay-as-you-go
+- Shared Responsibility Model
+
+---
+
+# Cómo estudiar este módulo
+
+1. Leer cada documento en orden
+2. Comprender los conceptos antes de memorizar
+3. Relacionar cada servicio con su caso de uso
+4. Repasar los conceptos clave
+5. Practicar preguntas tipo examen
+
+---
+
+# Preguntas de práctica
+
+Puedes practicar con las preguntas del módulo en:
+
+preguntas/
+
+---
+
+# Resultado esperado
+
+Al finalizar este módulo deberías poder explicar:
+
+- qué es cloud computing
+- por qué las empresas usan cloud
+- cómo se organiza AWS globalmente
+- qué hacen servicios como EC2 y S3
+- cómo funciona el modelo de responsabilidad compartida
