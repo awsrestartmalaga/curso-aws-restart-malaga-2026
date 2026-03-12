@@ -1,32 +1,32 @@
 # Fundamentos de la nube
 
-Este mÛdulo introduce los conceptos esenciales de **Cloud Computing y AWS**.  
-Es el punto de partida para entender cÛmo funcionan los servicios cloud y cÛmo se utilizan en la pr·ctica.
+Este m√≥dulo introduce los conceptos esenciales de **Cloud Computing y AWS**.  
+Es el punto de partida para entender c√≥mo funcionan los servicios cloud y c√≥mo se utilizan en la pr√°ctica.
 
-El objetivo es que el alumno comprenda **los principios b·sicos de la nube antes de empezar a trabajar con servicios especÌficos de AWS**.
+El objetivo es que el alumno comprenda **los principios b√°sicos de la nube antes de empezar a trabajar con servicios espec√≠ficos de AWS**.
 
 ---
 
-# Objetivos del mÛdulo
+# Objetivos del m√≥dulo
 
-Al finalizar este mÛdulo el alumno deberÌa ser capaz de:
+Al finalizar este m√≥dulo el alumno deber√≠a ser capaz de:
 
-- explicar quÈ es **cloud computing**
+- explicar qu√© es **cloud computing**
 - entender las **ventajas del modelo cloud**
-- comprender cÛmo se organiza la **infraestructura global de AWS**
-- identificar las principales **categorÌas de servicios**
-- conocer los servicios b·sicos **Amazon EC2 y Amazon S3**
+- comprender c√≥mo se organiza la **infraestructura global de AWS**
+- identificar las principales **categor√≠as de servicios**
+- conocer los servicios b√°sicos **Amazon EC2 y Amazon S3**
 - entender el **modelo de responsabilidad compartida**
 - reconocer conceptos clave que aparecen en el examen **AWS Certified Cloud Practitioner**
 
 ---
 
-# Contenido del mÛdulo
+# Contenido del m√≥dulo
 
-1. [QuÈ es Cloud Computing](01-que-es-cloud.md)
+1. [Qu√© es Cloud Computing](01-que-es-cloud.md)
 2. [Ventajas del Cloud](02-ventajas-del-cloud.md)
 3. [Infraestructura global de AWS](03-infraestructura-global-aws.md)
-4. [CategorÌas de servicios AWS](04-categorias-servicios-aws.md)
+4. [Categor√≠as de servicios AWS](04-categorias-servicios-aws.md)
 5. [Amazon EC2](05-amazon-ec2.md)
 6. [Amazon S3](06-amazon-s3.md)
 7. [Modelo de responsabilidad compartida](07-modelo-responsabilidad-compartida.md)
@@ -37,13 +37,13 @@ Al finalizar este mÛdulo el alumno deberÌa ser capaz de:
 
 Estos conceptos son fundamentales para entender cloud computing:
 
-| Concepto | ExplicaciÛn |
+| Concepto | Explicaci√≥n |
 |--------|--------|
-| Cloud Computing | Uso de recursos inform·ticos a travÈs de internet |
+| Cloud Computing | Uso de recursos inform√°ticos a trav√©s de internet |
 | Pay-as-you-go | Pago solo por lo que se utiliza |
-| Elasticidad | Ajustar recursos autom·ticamente seg˙n demanda |
+| Elasticidad | Ajustar recursos autom√°ticamente seg√∫n demanda |
 | Escalabilidad | Aumentar capacidad de un sistema |
-| Alta disponibilidad | DiseÒar sistemas que sigan funcionando aunque haya fallos |
+| Alta disponibilidad | Dise√±ar sistemas que sigan funcionando aunque haya fallos |
 
 ---
 
@@ -53,7 +53,7 @@ AWS organiza su infraestructura en tres niveles principales.
 
 ## Regions
 
-Una **Region** es un ·rea geogr·fica donde AWS tiene centros de datos.
+Una **Region** es un √°rea geogr√°fica donde AWS tiene centros de datos.
 
 Ejemplos:
 
@@ -65,7 +65,7 @@ Ejemplos:
 
 ## Availability Zones
 
-Cada regiÛn contiene varias **Availability Zones (AZ)**.
+Cada regi√≥n contiene varias **Availability Zones (AZ)**.
 
 Cada AZ es un **datacenter independiente**.
 
@@ -88,13 +88,13 @@ Se utilizan en servicios como:
 
 ---
 
-# Servicios AWS que se introducen en este mÛdulo
+# Servicios AWS que se introducen en este m√≥dulo
 
-Este mÛdulo presenta dos de los servicios m·s importantes de AWS.
+Este m√≥dulo presenta dos de los servicios m√°s importantes de AWS.
 
 ## Amazon EC2
 
-Servicio de **cÛmputo** que permite lanzar **m·quinas virtuales en la nube**.
+Servicio de **c√≥mputo** que permite lanzar **m√°quinas virtuales en la nube**.
 
 Se usa para:
 
@@ -113,7 +113,7 @@ Se usa para:
 
 - almacenamiento de archivos
 - backups
-- hosting web est·tico
+- hosting web est√°tico
 - almacenamiento de logs
 
 ---
@@ -131,7 +131,7 @@ Incluye:
 - centros de datos
 - hardware
 - red global
-- infraestructura fÌsica
+- infraestructura f√≠sica
 
 ---
 
@@ -143,16 +143,16 @@ Incluye:
 
 - usuarios
 - permisos
-- configuraciÛn de servicios
+- configuraci√≥n de servicios
 - sistemas operativos
 - aplicaciones
 - datos
 
 ---
 
-# RelaciÛn con el examen Cloud Practitioner
+# Relaci√≥n con el examen Cloud Practitioner
 
-Este mÛdulo cubre principalmente el dominio:
+Este m√≥dulo cubre principalmente el dominio:
 
 **Cloud Concepts**
 
@@ -168,7 +168,7 @@ Conceptos importantes para el examen:
 
 ---
 
-# CÛmo estudiar este mÛdulo
+# C√≥mo estudiar este m√≥dulo
 
 1. Leer cada documento en orden
 2. Comprender los conceptos antes de memorizar
@@ -178,9 +178,9 @@ Conceptos importantes para el examen:
 
 ---
 
-# Preguntas de pr·ctica
+# Preguntas de pr√°ctica
 
-Puedes practicar con las preguntas del mÛdulo en:
+Puedes practicar con las preguntas del m√≥dulo en:
 
 preguntas/
 
@@ -188,10 +188,10 @@ preguntas/
 
 # Resultado esperado
 
-Al finalizar este mÛdulo deberÌas poder explicar:
+Al finalizar este m√≥dulo deber√≠as poder explicar:
 
-- quÈ es cloud computing
-- por quÈ las empresas usan cloud
-- cÛmo se organiza AWS globalmente
-- quÈ hacen servicios como EC2 y S3
-- cÛmo funciona el modelo de responsabilidad compartida
+- qu√© es cloud computing
+- por qu√© las empresas usan cloud
+- c√≥mo se organiza AWS globalmente
+- qu√© hacen servicios como EC2 y S3
+- c√≥mo funciona el modelo de responsabilidad compartida
